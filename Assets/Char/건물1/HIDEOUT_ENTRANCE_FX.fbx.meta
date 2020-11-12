@@ -1,0 +1,208 @@
+fileFormatVersion: 2
+guid: 561fea49ff8a64d4cbb0d55ed1b3eddd
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: 4831203696071863327
+    second: hideout_entrance_construction_site_0
+  - first:
+      74: 1554453077896467480
+    second: hideout_entrance_construction_site_1
+  - first:
+      74: 7294270638775190650
+    second: hideout_entrance_building_0
+  - first:
+      74: 8978638418064989804
+    second: hideout_entrance_building_1
+  - first:
+      74: 14312954515617234
+    second: hideout_entrance_building_2
+  - first:
+      74: 4553574537457093137
+    second: hideout_entrance_roof_closed
+  - first:
+      74: 510875650466830027
+    second: hideout_entrance_roof_open
+  - first:
+      74: 1887822746317294023
+    second: hideout_entrance_roof_closing
+  - first:
+      74: 3902945101366667664
+    second: hideout_entrance_roof_opening
+  - first:
+      74: 5504758470969915758
+    second: hideout_entrance_construction_site_tier_1_health_0
+  - first:
+      74: -8985923661301307780
+    second: hideout_entrance_construction_site_tier_1_health_1
+  - first:
+      74: -1931111045273846695
+    second: hideout_entrance_construction_site_tier_3_health_0
+  - first:
+      74: -8356712868153566852
+    second: hideout_entrance_construction_site_tier_3_health_1
+  - first:
+      74: 1773684336445162139
+    second: hideout_entrance_building_tier_1_health_0
+  - first:
+      74: -7252856059787059956
+    second: hideout_entrance_building_tier_1_health_1
+  - first:
+      74: 3405494158791449164
+    second: hideout_entrance_building_tier_1_health_2
+  - first:
+      74: -5423845059794302610
+    second: hideout_entrance_building_tier_1_health_3
+  - first:
+      74: -8107441715871911581
+    second: hideout_entrance_building_tier_2_health_0
+  - first:
+      74: -8989453900769101769
+    second: hideout_entrance_building_tier_2_health_1
+  - first:
+      74: -6111443872224758369
+    second: hideout_entrance_building_tier_2_health_2
+  - first:
+      74: 3574548314551707774
+    second: hideout_entrance_building_tier_2_health_3
+  - first:
+      74: -2053634974042928968
+    second: hideout_entrance_building_tier_3_health_0
+  - first:
+      74: 8110298993421277947
+    second: hideout_entrance_building_tier_3_health_1
+  - first:
+      74: 7339146029511730385
+    second: hideout_entrance_building_tier_3_health_2
+  - first:
+      74: 4640499685189995801
+    second: hideout_entrance_building_tier_3_health_3
+  - first:
+      74: -1883911516642771412
+    second: hideout_entrance_npc_construction_site_0_0
+  - first:
+      74: 8519797972714601390
+    second: hideout_entrance_npc_construction_site_0_1
+  - first:
+      74: -4151433375101048455
+    second: hideout_entrance_npc_construction_site_1_1
+  - first:
+      74: 8988860832775201306
+    second: hideout_entrance_npc_construction_site_1_0
+  - first:
+      74: 404844113155393649
+    second: hideout_entrance_npc_construction_site_2_0
+  - first:
+      74: 4567174727882447248
+    second: hideout_entrance_npc_construction_site_2_1
+  - first:
+      74: -284901849858563571
+    second: hideout_entrance_npc_building_1_0
+  - first:
+      74: 4735602224895742635
+    second: hideout_entrance_npc_building_1_1
+  - first:
+      74: 3251988851056983444
+    second: hideout_entrance_npc_building_0_1
+  - first:
+      74: -5168933170361813844
+    second: hideout_entrance_npc_building_0_0
+  - first:
+      74: -8327799657093981133
+    second: hideout_entrance_npc_building_2_1
+  - first:
+      74: -6126040771274947426
+    second: hideout_entrance_npc_building_2_0
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
