@@ -1,14 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 
 public class PlayerIG : MonoBehaviour
 {
     Animation mAnim;
     public int mHp = 20;
-    public int mSpeed = 1;
+    public int mSpeed = 10;
     private float mMove = 0f;
 
     private bool mIsIdle = false;
@@ -19,7 +18,7 @@ public class PlayerIG : MonoBehaviour
 
     void Start()
     {
-       // UIEventToInGame.Instance.EventJoystickMove += OnEventMove;
+        UIEventToInGame.Instance.EventStickMove += OnEventMove;
         mAnim = GetComponent<Animation>();
     }
 
@@ -53,15 +52,14 @@ public class PlayerIG : MonoBehaviour
 
     private void OnDestroy()
     {
-        //UIEventToInGame.Instance.EventJoystickMove -= OnEventMove;
+        UIEventToInGame.Instance.EventStickMove -= OnEventMove;
     }
 
-    void OnEventMove(Vector2 direction, float amount)
+    void OnEventMove(Vector2 direction)
     {
         Vector3 worldDirection = new Vector3(direction.x, 0f, direction.y);
-        transform.Translate(worldDirection.normalized * amount * mSpeed * Time.deltaTime, Space.World);
-
-
+        transform.Translate(worldDirection.normalized * mSpeed * Time.deltaTime, Space.World);
+        mIsWalk = true;
     }
 }
 

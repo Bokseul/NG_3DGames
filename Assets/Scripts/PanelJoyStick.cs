@@ -6,7 +6,7 @@ using UnityEngine.EventSystems;
 public class PanelJoyStick : MonoBehaviour, IPointerDownHandler, IDragHandler, IPointerUpHandler
 {
     [SerializeField]
-    float mMaxDistance = 30f;
+    float mMaxDistance = 50f;
 
     bool mPullstick;
     
