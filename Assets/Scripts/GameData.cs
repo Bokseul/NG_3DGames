@@ -2,17 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameData : MonoBehaviour
+public class GameData : Singleton<GameData>
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    Dictionary<string, SkillData> mSkillList = new Dictionary<string, SkillData>();
 
-    // Update is called once per frame
-    void Update()
+    //---------------------------------------------------
+    public void Init()
     {
-        
+        CSVReader.Table skillDataTable = CSVReader.Reader.ReadCSVToTable("Datas/SkillDataTable");
+        mSkillList = skillDataTable.TableToDictionary<string,SkillData>();
+
+        Debug.Log("Succeeded GameData::Init()");
     }
 }
