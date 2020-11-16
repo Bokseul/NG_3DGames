@@ -19,8 +19,6 @@ public class PlayerIG : MonoBehaviour
     [SerializeField]
     private GameObject attackPoint;
 
-    public Vector3 fireDirection;
-
     Animation mAnim;
     public int mHp = 20;
     public int mSpeed = 10;
@@ -29,14 +27,14 @@ public class PlayerIG : MonoBehaviour
     private bool mIsIdle = false;
     private bool mIsWalk = false;
     private bool mIsDeath = false;
-    
+
+   
+
     void Start()
     {
         UIEventToInGame.Instance.EventStickMove += OnEventMove;
-        UIEventToInGame.Instance.EventStickUp += OnEventStop;
-        UIEventToInGame.Instance.EventIceSkillBtn += skillIce;
         mAnim = GetComponent<Animation>();
-        fireDirection = transform.forward;
+        
       
         mAnim.CrossFade("free", 0.2f);
     }
@@ -62,12 +60,16 @@ public class PlayerIG : MonoBehaviour
         {
             skillFire();
         }
-            
+
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            skillIce();
+        }
+
         if (Input.GetKeyDown(KeyCode.D))
         {
             skillHeal();
         }
-
         //switch(mPlayerSkill)
         //{
         //    case 0:
@@ -101,22 +103,18 @@ public class PlayerIG : MonoBehaviour
     {
         mAnim.CrossFade("attack", 0.2f);
         var bullet = ObjectPoolIG.GetObject();
-        //bullet.transform.position = transform.position;
         bullet.transform.position = attackPoint.transform.position;
        
-        bullet.Shoot(transform.position + fireDirection * 10f);
+        bullet.Shoot(transform.forward * 10f);
     }
 
     private void skillFire()
     {
         StartCoroutine(CoroutinSkill_Fire());
     }
-    private void skillIce(bool iceskillbtn)
+    private void skillIce()
     {
-        if (iceskillbtn)
-        {
-            StartCoroutine(CoroutinSkill_Ice());
-        }
+        StartCoroutine(CoroutinSkill_Ice());
     }
     private void skillHeal()
     {
@@ -142,26 +140,12 @@ public class PlayerIG : MonoBehaviour
         }
     }
 
-    void OnEventStop(bool walk)
-    {
-        if (walk)
-        {
-            mIsIdle = false;
-            mIsWalk = true;
-        }
-        else if (walk != true)
-        {
-            mIsWalk = false;
-            mIsIdle = true;
-        }
-    }
-
     IEnumerator CoroutinSkill_Fire()
     {
         mAnim.CrossFade("skill", 0.2f);
         var skill_FireBox = ObjectPoolIG.GetFireObject();
         skill_FireBox.transform.position = transform.Find("Skill_Fire").position;
-        skill_FireBox.Shoot(transform.position + fireDirection * 10f);
+        skill_FireBox.Shoot(transform.position + transform.forward * 10f);
        
         yield return new WaitForSeconds(3f);
         
@@ -172,7 +156,7 @@ public class PlayerIG : MonoBehaviour
         mAnim.CrossFade("skill", 0.2f);
         var skill_IceBox = ObjectPoolIG.GetIceObject();
         skill_IceBox.transform.position = transform.Find("Skill_Ice").position;
-        skill_IceBox.Shoot(transform.position + fireDirection * 10f);
+        skill_IceBox.Shoot(transform.position + transform.forward * 10f);
 
         yield return new WaitForSeconds(3f);
 
@@ -183,7 +167,7 @@ public class PlayerIG : MonoBehaviour
         mAnim.CrossFade("skill", 0.2f);
         var skill_HealBox = ObjectPoolIG.GetHealObject();
         skill_HealBox.transform.position = transform.Find("Skill_Heal").position;
-        skill_HealBox.Shoot(transform.position + fireDirection * 10f);
+        skill_HealBox.Shoot(transform.position + transform.forward * 10f);
       
         yield return new WaitForSeconds(3f);
       

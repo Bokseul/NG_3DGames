@@ -10,7 +10,6 @@ public class Bullet_IceObj : MonoBehaviour
 
     public void Shoot(Vector3 direction)
     {
-        //transform.LookAt(direction);
         this.mDirection = direction * Time.deltaTime;
         fx_obj = Instantiate(explosionIce, transform.position, transform.rotation);
         Invoke("DestroyBullet", 5f);

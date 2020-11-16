@@ -10,7 +10,6 @@ public class Bullet_HealObj : MonoBehaviour
 
     public void Shoot(Vector3 direction)
     {
-        //transform.LookAt(direction);
         this.mDirection = direction * Time.deltaTime;
         fx_obj = Instantiate(explosionHeal, transform.position, transform.rotation);
         Invoke("DestroyBullet", 5f);

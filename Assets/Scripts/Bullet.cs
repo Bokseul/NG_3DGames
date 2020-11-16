@@ -11,13 +11,10 @@ public class Bullet : MonoBehaviour
 
     public void Shoot(Vector3 direction)
     {
-        //transform.LookAt(direction);
         this.mDirection = direction * speed * Time.deltaTime;
-        fx_obj = Instantiate(explosion, transform.position, transform.rotation);
-        Invoke("DestroyBullet", 5f);
-        
+        fx_obj = Instantiate(explosion, transform.position, Quaternion.LookRotation(direction));
+        Invoke("DestroyBullet", 5f);        
     }
-
 
     public void DestroyBullet()
     {
@@ -28,8 +25,7 @@ public class Bullet : MonoBehaviour
 
     void Update()
     {
-        //transform.Translate(mDirection);
-        transform.Translate(Vector3.forward);
+        transform.Translate(mDirection);
     }
 
     

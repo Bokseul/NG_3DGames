@@ -1,10 +1,18 @@
-﻿public class InGameEventToUI : Singleton<InGameEventToUI>
-{
-    public event System.Action<bool> EventAniDone;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
-    public void OnEventAniDone(bool aniFinish)
+public class InGameEventToUI : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
     {
-        if (EventAniDone != null)
-            EventAniDone(aniFinish);
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
     }
 }
