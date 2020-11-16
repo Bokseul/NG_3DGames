@@ -33,6 +33,7 @@ public class PlayerIG : MonoBehaviour
     void Start()
     {
         UIEventToInGame.Instance.EventStickMove += OnEventMove;
+        UIEventToInGame.Instance.EventStickUp += OnEventStop;
         mAnim = GetComponent<Animation>();
         
       
@@ -124,6 +125,7 @@ public class PlayerIG : MonoBehaviour
     private void OnDestroy()
     {
         UIEventToInGame.Instance.EventStickMove -= OnEventMove;
+        UIEventToInGame.Instance.EventStickUp -= OnEventStop;
     }
 
     void OnEventMove(Vector2 direction)
@@ -137,6 +139,20 @@ public class PlayerIG : MonoBehaviour
             Quaternion q = Quaternion.LookRotation(worldDirection);
             float y = q.eulerAngles.y;
             transform.rotation = Quaternion.Euler(new Vector3(0, y, 0));
+        }
+    }
+
+    void OnEventStop(bool walk)
+    {
+        if (walk)
+        {
+            mIsIdle = false;
+            mIsWalk = true;
+        }
+        else if (walk != true)
+        {
+            mIsWalk = false;
+            mIsIdle = true;
         }
     }
 

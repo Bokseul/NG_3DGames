@@ -9,7 +9,7 @@ public class PanelJoyStick : MonoBehaviour, IPointerDownHandler, IDragHandler, I
     float mMaxDistance = 50f;
 
     bool mPullstick;
-    
+
     RectTransform mCenterTransform;
     RectTransform mStickTransform;
 
@@ -57,7 +57,7 @@ public class PanelJoyStick : MonoBehaviour, IPointerDownHandler, IDragHandler, I
         Vector3 direction = mStickTransform.position - mCenterTransform.position;
         return bNormalize ? direction.normalized : direction;
     }
-    
+
     public void OnPointerDown(PointerEventData eventData)
     {
         mPullstick = true;
@@ -93,7 +93,7 @@ public class PanelJoyStick : MonoBehaviour, IPointerDownHandler, IDragHandler, I
             mStickTransform.position = mCenterTransform.position + direction * mMaxDistance;
         }
     }
-    
+
     private void ResetStickpos()
     {
         mStickTransform.position = mCenterTransform.position;
