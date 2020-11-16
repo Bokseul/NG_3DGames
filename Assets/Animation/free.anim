@@ -20,7 +20,7 @@ AnimationClip:
       m_BitSize: 7
     m_Values:
       m_NumItems: 4
-      m_Data: aa29e5b1ba8965b09a09e5b1aa29e5b1
+      m_Data: aa09e5b1ba6965b09ae9e4b1aa09e5b1
     m_Slopes:
       m_NumItems: 16
       m_Range: 0.08720094
@@ -117,7 +117,7 @@ AnimationClip:
       m_BitSize: 6
     m_Values:
       m_NumItems: 5
-      m_Data: 4a86ba5caa85bb5a9467755802e63a5c4a86ba5c
+      m_Data: 4286ba5caa85bb5a9467755802e63a5c4286ba5c
     m_Slopes:
       m_NumItems: 20
       m_Range: 0.27022964
@@ -134,7 +134,7 @@ AnimationClip:
       m_BitSize: 6
     m_Values:
       m_NumItems: 5
-      m_Data: cbe61594f316168b3307558ffbf6d497cbe61594
+      m_Data: cbe61594f316168b33f7548ffbf6d497cbe61594
     m_Slopes:
       m_NumItems: 20
       m_Range: 0.40871897
@@ -220,7 +220,7 @@ AnimationClip:
       m_BitSize: 8
     m_Values:
       m_NumItems: 2
-      m_Data: d838b25bd838b25b
+      m_Data: d828b25bd828b25b
     m_Slopes:
       m_NumItems: 8
       m_Range: 0
@@ -237,7 +237,7 @@ AnimationClip:
       m_BitSize: 6
     m_Values:
       m_NumItems: 6
-      m_Data: e3d7f27a3bc8b283fb1733809327b37693073375e3d7f27a
+      m_Data: e3c7f27a3bb8b283fb1733809327b37693073375e3c7f27a
     m_Slopes:
       m_NumItems: 24
       m_Range: 0.53300047
@@ -523,7 +523,7 @@ AnimationClip:
       m_BitSize: 6
     m_Values:
       m_NumItems: 4
-      m_Data: ea12e7475293e5499a926646ea12e747
+      m_Data: ea12e7475273e5499a926646ea12e747
     m_Slopes:
       m_NumItems: 16
       m_Range: 0.123433106
@@ -571,7 +571,7 @@ AnimationClip:
       m_BitSize: 6
     m_Values:
       m_NumItems: 5
-      m_Data: fbf71fcbfbf75fc7fbf7dfc1fbf75fcafbf71fcb
+      m_Data: fbf7dfcafbf75fc7fbf7dfc1fbf71fcafbf7dfca
     m_Slopes:
       m_NumItems: 20
       m_Range: 0.3965802
@@ -588,7 +588,7 @@ AnimationClip:
       m_BitSize: 6
     m_Values:
       m_NumItems: 5
-      m_Data: 63885a415b381b458ba85a496b785a4263885a41
+      m_Data: 63885a415b38db448ba85a496b785a4263885a41
     m_Slopes:
       m_NumItems: 20
       m_Range: 0.29552695
