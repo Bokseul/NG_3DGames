@@ -1053,11 +1053,6 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-<<<<<<< HEAD
-  m_IsActive: 0
---- !u!108 &705507994
-Light:
-=======
   m_IsActive: 1
 --- !u!224 &636122527
 RectTransform:
@@ -1080,7 +1075,6 @@ RectTransform:
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &636122528
 MonoBehaviour:
->>>>>>> a1f7857e3c1c99ef134e153f72cebfeb86b79cef
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1373,15 +1367,9 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-<<<<<<< HEAD
-  m_IsActive: 0
---- !u!81 &963194226
-AudioListener:
-=======
   m_IsActive: 1
 --- !u!224 &934380064
 RectTransform:
->>>>>>> a1f7857e3c1c99ef134e153f72cebfeb86b79cef
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}

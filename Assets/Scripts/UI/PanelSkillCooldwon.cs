@@ -26,6 +26,7 @@ public class PanelSkillCooldwon : MonoBehaviour
         {
             if (finishtime > 0)
             {
+                UIEventToInGame.Instance.OnEventAttackBtn(false);
                 finishtime -= Time.deltaTime * 1f;
                 if (finishtime < 0)
                 {
@@ -34,7 +35,8 @@ public class PanelSkillCooldwon : MonoBehaviour
                     {
                         skillbtn.enabled = true;
                     }
-                    isClick = true;
+                    isClick = false;
+                    
                 }
                 float ratio = 0f + (finishtime / cooldown);
                 if (coolimage)
@@ -51,6 +53,10 @@ public class PanelSkillCooldwon : MonoBehaviour
         finishtime = cooldown;
         isClick = true;
         if (skillbtn)
+        {
             skillbtn.enabled = false;
+           // UIEventToInGame.Instance.OnEventAttackBtn(false);
+        }
+
     }
 }

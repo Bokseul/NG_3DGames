@@ -10,7 +10,7 @@ public class PlayerIG : MonoBehaviour
 
     Animation mAnim;
     public int mHp = 20;
-    public int mSpeed = 3;
+    public int mSpeed = 10;
     private float mMove = 0f;
 
     private bool mIsIdle = false;
@@ -32,9 +32,9 @@ public class PlayerIG : MonoBehaviour
         UIEventToInGame.Instance.EventIceSkillBtn += skillIce;
         UIEventToInGame.Instance.EventHealSkillBtn += skillHeal;
         mAnim = GetComponent<Animation>();
-        
-      
-        mAnim.CrossFade("free", 0.2f);
+
+        mIsIdle = true;
+        //mAnim.CrossFade("free", 0.2f);
     }
 
     void Update()
@@ -42,15 +42,21 @@ public class PlayerIG : MonoBehaviour
         if(mIsIdle)
         {
             mAnim.CrossFade("free", 0.2f);
-            if (mIsAttack)
-                skillAttack(true);
-            else if (mIsFire)
-                skillFire(true);
-            else if (mIsIce)
-                skillIce(true);
-            else if (mIsHeal)
-                skillHeal(true);
+
+            //if (!mIsAttack)
+            //    skillAttack(mIsAttack);
+            //else if (mIsFire)
+            //    skillFire(mIsFire);
+            //else if (mIsIce)
+            //    skillIce(mIsIce);
+            //else if (mIsHeal)
+            //    skillHeal(mIsHeal);
+            //else
+            //    mAnim.CrossFade("free", 0.2f);
         }
+        skillAttack(mIsAttack);
+        skillFire(mIsFire);
+        skillIce(mIsIce);
 
         if (mIsWalk)
         {
@@ -67,28 +73,44 @@ public class PlayerIG : MonoBehaviour
     {
         if (attack)
         {
+            mIsIdle = false;
             mAnim.CrossFade("attack", 0.2f);
             var bullet = ObjectPoolIG.GetObject();
             bullet.transform.position = attackPoint.transform.position;
-
             bullet.Shoot(transform.forward * 10f);
         }
+    }
+
+    public void OnAnimEventAttackEnd()
+    {
+        mIsIdle = true;
+    }
+
+    public void OnEventSkillEnd()
+    {
+        mIsIdle = true;
     }
 
     private void skillFire(bool skillfire)
     {
         if (skillfire)
-        StartCoroutine(CoroutinSkill_Fire());
+        {
+            StartCoroutine(CoroutinSkill_Fire());
+        }
     }
     private void skillIce(bool skillice)
     {
         if (skillice)
-        StartCoroutine(CoroutinSkill_Ice());
+        {
+            StartCoroutine(CoroutinSkill_Ice());
+        }
     }
     private void skillHeal(bool skillheal)
     {
         if (skillheal)
-        StartCoroutine(CoroutinSkill_Heal());
+        {
+            StartCoroutine(CoroutinSkill_Heal());
+        }
     }
 
     private void OnDestroy()
@@ -130,6 +152,7 @@ public class PlayerIG : MonoBehaviour
 
     IEnumerator CoroutinSkill_Fire()
     {
+        mIsIdle = false;
         mAnim.CrossFade("skill", 0.2f);
         var skill_FireBox = ObjectPoolIG.GetFireObject();
         skill_FireBox.transform.position = transform.Find("Skill_Fire").position;
@@ -141,6 +164,7 @@ public class PlayerIG : MonoBehaviour
 
     IEnumerator CoroutinSkill_Ice()
     {
+        mIsIdle = false;
         mAnim.CrossFade("skill", 0.2f);
         var skill_IceBox = ObjectPoolIG.GetIceObject();
         skill_IceBox.transform.position = transform.Find("Skill_Ice").position;
@@ -152,6 +176,7 @@ public class PlayerIG : MonoBehaviour
 
     IEnumerator CoroutinSkill_Heal()
     {
+        mIsIdle = false;
         mAnim.CrossFade("skill", 0.2f);
         var skill_HealBox = ObjectPoolIG.GetHealObject();
         skill_HealBox.transform.position = transform.Find("Skill_Heal").position;

@@ -15,27 +15,38 @@ public class PanelSkillUI : MonoBehaviour
     public bool mIceSkill_Btn = false;
     public bool mHeal_UiBtn = false;
 
+
+
     
     private void Update()
     {
         if (mAttack_Btn)
         {
             UIEventToInGame.Instance.OnEventAttackBtn(mAttack_Btn);
+            mAttack_Btn = false;
+            UIEventToInGame.Instance.OnEventAttackBtn(mAttack_Btn);
         }
         else if (mIceSkill_Btn)
         {
+            UIEventToInGame.Instance.OnEventIceSkillBtn(mIceSkill_Btn);
+            mIceSkill_Btn = false;
             UIEventToInGame.Instance.OnEventIceSkillBtn(mIceSkill_Btn);
         }
         else if (mFireSkill_Btn)
         {
             UIEventToInGame.Instance.OnEventFireSkillBtn(mFireSkill_Btn);
+            mFireSkill_Btn = false;
+            UIEventToInGame.Instance.OnEventFireSkillBtn(mFireSkill_Btn);
         }
         else if (mHeal_UiBtn)
         {
             UIEventToInGame.Instance.OnEventHealSkillBtn(mHeal_UiBtn);
+            mHeal_UiBtn = false;
+            UIEventToInGame.Instance.OnEventHealSkillBtn(mHeal_UiBtn);
         }
+
     }
-    
+
     public void EventAttackBtn()
     {
         mAttack_Btn = true;
@@ -52,4 +63,6 @@ public class PanelSkillUI : MonoBehaviour
     {
         mHeal_UiBtn = true;
     }
+
+
 }

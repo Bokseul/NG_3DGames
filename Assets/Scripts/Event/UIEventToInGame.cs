@@ -21,7 +21,7 @@ public class UIEventToInGame : Singleton<UIEventToInGame>
     {
         if (EventStickUp != null)
             EventStickUp(stickup);
-    }
+    }   
 
     public void OnEventAttackBtn(bool attack)
     {

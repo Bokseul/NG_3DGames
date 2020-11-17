@@ -2983,6 +2983,10 @@ PrefabInstance:
       propertyPath: m_Animations.Array.data[4]
       value: 
       objectReference: {fileID: 7400000, guid: 39acb15f7931969408d9183a23bf75bb, type: 2}
+    - target: {fileID: 11100000, guid: 5450648928fd5bc4c8be1d4938fc3844, type: 3}
+      propertyPath: m_Animations.Array.data[3]
+      value: 
+      objectReference: {fileID: 7400000, guid: 405c187dd4ad9634eb38452a91cf9826, type: 2}
     - target: {fileID: 13700000, guid: 5450648928fd5bc4c8be1d4938fc3844, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 

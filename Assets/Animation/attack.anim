@@ -20,7 +20,7 @@ AnimationClip:
       m_BitSize: 5
     m_Values:
       m_NumItems: 14
-      m_Data: aa09e5b18a28e2b9d47befc19c8beec49be3adb9fb032ebfda2860bf8a0963b8c22ae7abe20bea9f192cf59dbacb69a10a6ae6aeaa09e5b1
+      m_Data: aae9e4b18228e2b9d47befc19c8beec49be3adb9fb032ebfda2860bf8a0963b8c22ae7abe20bea9f192cf59dbacb69a10a6ae6aeaae9e4b1
     m_Slopes:
       m_NumItems: 56
       m_Range: 5.0507727
@@ -36,7 +36,7 @@ AnimationClip:
       m_BitSize: 5
     m_Values:
       m_NumItems: 14
-      m_Data: 0e10c0c60610c0d10308a0280308a02deb57a02fab27a12a6e0fc2d48e8f41cccecf40bc0e10c0ad16f0bfaa0e1040af0e10c0c10e10c0c6
+      m_Data: 0e10c0c60610c0d10308a0280308a02deb57a02fab27612a6e0fc2d48e8f41cccecf40bc0e10c0ad16f0bfaa0e1040af0e10c0c10e10c0c6
     m_Slopes:
       m_NumItems: 56
       m_Range: 6.199326
@@ -100,7 +100,7 @@ AnimationClip:
       m_BitSize: 4
     m_Values:
       m_NumItems: 16
-      m_Data: fbf79f5d1be81c5b4bf8da5893e8de53ab782055bb88e15cc3786267ebe8236d6b196765c349e95a9319e85633b92554dbc8e3538b3822561b88e05bfbf79f5d
+      m_Data: fbf79f5d1be81c5b4bf8da5893e8de53ab78e054bb88e15cc3786267ebe8236d6b196765c349e95a9319e85633b9e553dbc8e3538b3822561b88e05bfbf79f5d
     m_Slopes:
       m_NumItems: 64
       m_Range: 4.699932
@@ -117,7 +117,7 @@ AnimationClip:
       m_BitSize: 4
     m_Values:
       m_NumItems: 15
-      m_Data: 4286ba5c62a63464e2e6af6d32c82d72f2c6ac6db4e5b4692cc6f36a64a7f16c0c77ef639c06ee59b4d62e56149771528467f453aa45bc574286ba5c
+      m_Data: 3a86ba5c5aa63464e2e6af6d32c82d72f2c6ac6db4e5b4692cc6f36a64a7f16c0c77ef639c06ee59b4d62e56149771528467f453aa45bc573a86ba5c
     m_Slopes:
       m_NumItems: 60
       m_Range: 4.72534
@@ -134,7 +134,7 @@ AnimationClip:
       m_BitSize: 4
     m_Values:
       m_NumItems: 21
-      m_Data: cbe61594cbd71aa3c35760b14b37a2a5cb86a1955b16e09183a51c8c4b555b895b551a81a3455a770b865c82b3b61d8d53671ea50be89fbebb5821cb1bf9a1cd5b5963be2b8962b87bd8deae7347199fcbe61594
+      m_Data: cbe61594cbd71aa3c35760b14b37a2a5cb86a1955b16e09183a51c8c4b555b895b551a81a3455a770b865c82b3b61d8d53671ea50be89fbebb58e1ca1bf9a1cd5b5963be2b8962b87bd8deae7347199fcbe61594
     m_Slopes:
       m_NumItems: 84
       m_Range: 10.189049
@@ -185,7 +185,7 @@ AnimationClip:
       m_BitSize: 5
     m_Values:
       m_NumItems: 14
-      m_Data: fbf71f3dfbf75f34feefbfd6feefbfd0feef3fd0feef3fd0feefbfc7feefbfc5feefbfccfeef3fd5fbf75f27fbf7df2dfbf71f33fbf71f3d
+      m_Data: fbf71f3dfbf75f34feefbfd6feefbfd0feef3fd0feef3fd0feefbfc7feefbfc5feefbfccfeef3fd5fbf75f27fbf7df2dfbf7df32fbf71f3d
     m_Slopes:
       m_NumItems: 56
       m_Range: 3.9809117
@@ -220,7 +220,7 @@ AnimationClip:
       m_BitSize: 4
     m_Values:
       m_NumItems: 19
-      m_Data: d828b25ba019b26898baf177187c308c181cb28ac8bbf385f299db81529ad680b2bacf7f9adaca7b82d9cd71f2b8d060cab9ce5530da7461a84a7470b8eab374789af375a809f367d828b25b
+      m_Data: d818b25ba009b26898baf177187c308c180cb28ac8bbf385f299db81529ad680b2bacf7f9adaca7b82d9cd71f2b8d060cab9ce5530da7461a84a7470b8eab374789af375a809f367d818b25b
     m_Slopes:
       m_NumItems: 76
       m_Range: 6.9152536
@@ -237,7 +237,7 @@ AnimationClip:
       m_BitSize: 3
     m_Values:
       m_NumItems: 20
-      m_Data: e3c7f27a5be8f189f348f099fbb9abaefbb928adcba9e7a8a339e6a64b5963a8b3b820b05b7820b3332821c67347a7b4db96ab79ab96a868e3566667e336276ac3466a76c366ae7a83f7f17ae3c7f27a
+      m_Data: e3b7f27a5be8f189f348f099fbb9abaefbb928adcba9a7a8a339e6a64b5923a8b3b820b05b7820b3332821c67347a7b4db96ab79ab96a868e3566667e336276ac3366a76c366ae7a83f7f17ae3b7f27a
     m_Slopes:
       m_NumItems: 80
       m_Range: 13.841016
@@ -254,7 +254,7 @@ AnimationClip:
       m_BitSize: 4
     m_Values:
       m_NumItems: 18
-      m_Data: fbf79fc5fbf79fbafbf7dfacfbf7df99fbf7dfa7fbf79fbbfbf71fbcfbf7dfbefbf75fcdfbf79fd9fbf79fd4fbf71fc8fbf7dfbafbf79fa8fbf75f93fbf7dfaafbf7dfbbfbf79fc5
+      m_Data: fbf79fc5fbf79fbafbf7dfacfbf7df99fbf7dfa7fbf79fbbfbf71fbcfbf7dfbefbf75fcdfbf79fd9fbf79fd4fbf7dfc7fbf7dfbafbf75fa8fbf75f93fbf7dfaafbf7dfbbfbf79fc5
     m_Slopes:
       m_NumItems: 72
       m_Range: 7.7129583
@@ -271,7 +271,7 @@ AnimationClip:
       m_BitSize: 4
     m_Values:
       m_NumItems: 16
-      m_Data: c8379cd963ad9b671bad586008c6d8ce8806d9d41b1d1c659becdd65332c9f66e30b9e66f3eb9c68cb3c9f7393ad617c88781ed460885ac71018dbcfc8379cd9
+      m_Data: c8379cd963ad9b671bad586008c6d8ce88f6d8d41b1d1c659becdd65332c9f66e30b9e66f3eb9c68cb3c9f7393ad617c88781ed460885ac71018dbcfc8379cd9
     m_Slopes:
       m_NumItems: 64
       m_Range: 5.0411553
@@ -457,7 +457,7 @@ AnimationClip:
       m_BitSize: 4
     m_Values:
       m_NumItems: 17
-      m_Data: f988e39429e8e08f49c7dd873906197f3926177c39a6577f09c65986a1e59c8f11861f99c968249d814baa8ed10b2c8b616bac8e7109e99951a8e59cd1e82396f988e394
+      m_Data: f988e39429e8e08f41c7dd873906197f3926177c39a6577f09c65986a1e59c8f11861f99c968249d814baa8ed10b2c8b616bac8e7109e99951a8e59cd1e82396f988e394
     m_Slopes:
       m_NumItems: 68
       m_Range: 7.9257073
@@ -473,7 +473,7 @@ AnimationClip:
       m_BitSize: 4
     m_Values:
       m_NumItems: 18
-      m_Data: fbf7dfb9fbf75fb7fbf7dfbefbf71fc5fbf7dfc7fbf7dfcafbf71fcefbf79fc7fbf7dfbefbf75fc5fbf7dfb8fbf71fbbfbf7dfc6fbf7dfcefbf79fd3fbf71fcefbf79fc4fbf7dfb9
+      m_Data: fbf7dfb9fbf75fb7fbf7dfbefbf71fc5fbf7dfc7fbf79fcafbf71fcefbf79fc7fbf7dfbefbf75fc5fbf7dfb8fbf71fbbfbf7dfc6fbf7dfcefbf79fd3fbf71fcefbf79fc4fbf7dfb9
     m_Slopes:
       m_NumItems: 72
       m_Range: 4.0812273
@@ -555,7 +555,7 @@ AnimationClip:
       m_BitSize: 4
     m_Values:
       m_NumItems: 19
-      m_Data: b96c5c7219cd987a09cd548351cc0e86b10c8c7fb18c0c7d29ec0e7c512b537bf90ad876014be168a12aa95fe9eae95be9aaa85ae12aa75a090be65969abe45a514ba35f396c5e6cb96c5c72
+      m_Data: b96c5c7219cd987a09cd548351cc0e86b10c8c7fb18c0c7d29ec0e7c512b537bf90ad876014be168992aa95fe9eae95be9aaa85ae12aa75a090be65969abe45a514ba35f396c5e6cb96c5c72
     m_Slopes:
       m_NumItems: 76
       m_Range: 11.610092
@@ -571,7 +571,7 @@ AnimationClip:
       m_BitSize: 4
     m_Values:
       m_NumItems: 17
-      m_Data: fbf7dfcafbf7dfcefbf71fd6faefbfd7faef3fd3faef3fcefaef3fcdfaef3fd7fbf7dfc4fbf71fbcfbf7dfc0fbf7dfc7fbf75fd2fbf79fd9fbf79fd9fbf79fcefbf7dfca
+      m_Data: fbf79fcafbf7dfcefbf71fd6faefbfd7faef3fd3faef3fcefaef3fcdfaef3fd7fbf7dfc4fbf71fbcfbf7dfc0fbf7dfc7fbf75fd2fbf79fd9fbf79fd9fbf79fcefbf79fca
     m_Slopes:
       m_NumItems: 68
       m_Range: 7.3954377
@@ -588,7 +588,7 @@ AnimationClip:
       m_BitSize: 4
     m_Values:
       m_NumItems: 19
-      m_Data: 63885a4113899a3eb3995a3cdbe99a3253295c301389dc2fcb98dc2c8318dc293b381b2fa3c71a5173b75c8e5b675c994b67db9043779a83f3d65873cbb6975e33871852bbf7984163885a41
+      m_Data: 63885a4113899a3eb3995a3cdbe95a3253295c301389dc2fcb98dc2c8318dc293b381b2fa3c71a5173b75c8e5b675c994b67db9043779a83f3d65873cbb6975e33871852bbf7984163885a41
     m_Slopes:
       m_NumItems: 76
       m_Range: 15.520809
@@ -605,7 +605,7 @@ AnimationClip:
       m_BitSize: 5
     m_Values:
       m_NumItems: 17
-      m_Data: fbf79f261b88df251b98df2503182028e3b7602afb8720274e713bd966d1b1ce56d1b1c02e11b4afe69035ab8e9039b566d0bdc15670bcc726303ed4fbe71f26fbf79f26
+      m_Data: fbf79f261b88df251b98df2503182028e3b7202afb8720274e713bd966d1b1ce56d1b1c02e11b4afe69035ab8e9039b566d0bdc15670bcc726303ed4fbe71f26fbf79f26
     m_Slopes:
       m_NumItems: 68
       m_Range: 6.2835665
@@ -7634,7 +7634,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.8
+    m_StopTime: 0.8000002
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -66784,4 +66784,11 @@ AnimationClip:
     script: {fileID: 0}
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events: []
+  m_Events:
+  - time: 0.76666665
+    functionName: OnAnimEventAttackEnd
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
