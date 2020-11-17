@@ -1,0 +1,81 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.AI;
+
+public class State_Trace : State
+{
+    public LayerMask mTargetLayer = 1 << 9;
+    private PlayerIG mTarget = null;
+    private NavMeshAgent mPathFider;
+
+    private bool hasTarget  
+    {
+        get 
+        {
+            if (mTarget != null && !mTarget.mIsDeath)    return true;
+            return false;
+        }
+    }
+
+    public override void Awake(GameObject monster)
+    {
+        base.Awake(monster);
+        mPathFider = monster.GetComponent<NavMeshAgent>();
+    }
+
+
+    public override void Enable()
+    {
+        mMonsterAnimator.SetBool("isRun", true);
+
+        
+    }
+
+    public override void Update()
+    {
+
+    }
+
+    public override IEnumerator Coroutine()
+    {
+        while (!mMonsterAI.mIsDeath)
+        {
+            if (hasTarget)
+            {
+                mPathFider.isStopped = false;
+
+                if (Vector3.Magnitude(mTransform.position - mTarget.transform.position) > 3f)
+                    mPathFider.SetDestination(mTarget.transform.position);
+                else
+                {
+                    mPathFider.isStopped = true;
+                    mMonsterAI.ChangeState(mMonsterAI.mStates[3]);
+                }
+            }
+            else
+            {
+                mPathFider.isStopped = true;
+
+                Collider[] colliders = Physics.OverlapSphere(mTransform.position, 40f, mTargetLayer);
+
+                for (int i = 0; i < colliders.Length; ++i)
+                {
+                    PlayerIG player = colliders[i].GetComponent<PlayerIG>();
+
+                    if (player != null && !player.mIsDeath)
+                    {
+                        mTarget = player;
+                        break;
+                    }
+                }
+
+                
+            }
+
+            yield return new WaitForSeconds(0.5f);
+        }
+
+        yield break;
+    }
+}

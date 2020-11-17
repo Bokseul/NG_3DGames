@@ -14,7 +14,7 @@ public class PlayerIG : MonoBehaviour
     private bool mIsWalk = false;
     private bool mIsAttack = false;
     private bool mIsSkill = false;
-    private bool mIsDeath = false;
+    public bool mIsDeath { get; private set; } = false;
 
     void Start()
     {
