@@ -21,4 +21,24 @@ public class State_NomalAttack : State
     {
         yield break;
     }
+
+    public void Attack()
+    {
+        if (!mMonsterAI.mIsDeath)
+        {
+            Collider[] colliders = Physics.OverlapBox(mTransform.position, new Vector3(1f, 1f, 1.3f), Quaternion.identity, 1 << 9);
+
+            for (int i = 0; i < colliders.Length; ++i)
+            {
+                PlayerIG player = colliders[i].GetComponent<PlayerIG>();
+
+                if (player != null && !player.mIsDeath)
+                {
+                    Debug.Log("공격성공");
+                    break;
+                }
+            }
+
+        }
+    }
 }

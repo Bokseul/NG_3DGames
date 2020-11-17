@@ -11,7 +11,6 @@ public class State_Idle : State
 
     public override void Update()
     {
-
     }
 
     public override IEnumerator Coroutine()
@@ -19,7 +18,7 @@ public class State_Idle : State
 
         while (true)
         {
-            yield return new WaitForSeconds(2f);
+            yield return new WaitForSeconds(1f);
 
             mMonsterAI.ChangeState(mMonsterAI.mStates[2]);
 

@@ -19,7 +19,7 @@ public class PlayerIG : MonoBehaviour
     private bool mIsFire = false;
     private bool mIsIce = false;
     private bool mIsHeal = false;
-    private bool mIsDeath = false;
+    public bool mIsDeath { get; private set; } = false;
 
    
 

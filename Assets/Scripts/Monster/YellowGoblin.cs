@@ -18,4 +18,9 @@ public class YellowGoblin : MonsterAI
     {
         ChangeState(mStates[1]);
     }
+
+    void Attack()
+    {
+        ((State_NomalAttack)mStates[3]).Attack();
+    }
 }

@@ -26,10 +26,7 @@ public class State_Trace : State
 
 
     public override void Enable()
-    {
-        mMonsterAnimator.SetBool("isRun", true);
-
-        
+    {        
     }
 
     public override void Update()
@@ -44,6 +41,7 @@ public class State_Trace : State
             if (hasTarget)
             {
                 mPathFider.isStopped = false;
+                mMonsterAnimator.SetBool("isRun", true);
 
                 if (Vector3.Magnitude(mTransform.position - mTarget.transform.position) > 3f)
                     mPathFider.SetDestination(mTarget.transform.position);
@@ -56,6 +54,7 @@ public class State_Trace : State
             else
             {
                 mPathFider.isStopped = true;
+                mMonsterAnimator.SetBool("isRun", false);
 
                 Collider[] colliders = Physics.OverlapSphere(mTransform.position, 40f, mTargetLayer);
 
