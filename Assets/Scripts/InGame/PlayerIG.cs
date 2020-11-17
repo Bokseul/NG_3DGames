@@ -21,7 +21,7 @@ public class PlayerIG : MonoBehaviour
 
     Animation mAnim;
     public int mHp = 20;
-    public int mSpeed = 10;
+    public int mSpeed = 3;
     private float mMove = 0f;
 
     private bool mIsIdle = false;
