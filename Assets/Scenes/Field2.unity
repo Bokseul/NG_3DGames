@@ -3037,7 +3037,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackPoint: {fileID: 178355742}
   mHp: 20
-  mSpeed: 1
+  mSpeed: 3
 --- !u!111 &1652326134
 Animation:
   m_ObjectHideFlags: 0

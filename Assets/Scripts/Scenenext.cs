@@ -7,6 +7,7 @@ public class Scenenext : MonoBehaviour
 {
     public void btn()
     {
-        SceneManager.LoadScene("VillageIn");
+        SceneManager.LoadScene("Field2");
+        SceneManager.LoadScene("MaingameUI", LoadSceneMode.Additive);
     }
 }

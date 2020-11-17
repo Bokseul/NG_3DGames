@@ -5,17 +5,6 @@ using UnityEngine;
 
 public class PlayerIG : MonoBehaviour
 {
-    enum mSkill
-    {
-        mAttack,
-        mSkill_Fire,
-        mSkill_Ice,
-        mSkill_Heal
-    } 
-
-    mSkill mPlayerSkill;
-
-
     [SerializeField]
     private GameObject attackPoint;
 
@@ -26,6 +15,10 @@ public class PlayerIG : MonoBehaviour
 
     private bool mIsIdle = false;
     private bool mIsWalk = false;
+    private bool mIsAttack = false;
+    private bool mIsFire = false;
+    private bool mIsIce = false;
+    private bool mIsHeal = false;
     private bool mIsDeath = false;
 
    
@@ -34,6 +27,10 @@ public class PlayerIG : MonoBehaviour
     {
         UIEventToInGame.Instance.EventStickMove += OnEventMove;
         UIEventToInGame.Instance.EventStickUp += OnEventStop;
+        UIEventToInGame.Instance.EventAttackBtn += skillAttack;
+        UIEventToInGame.Instance.EventFireSkillBtn += skillFire;
+        UIEventToInGame.Instance.EventIceSkillBtn += skillIce;
+        UIEventToInGame.Instance.EventHealSkillBtn += skillHeal;
         mAnim = GetComponent<Animation>();
         
       
@@ -45,80 +42,52 @@ public class PlayerIG : MonoBehaviour
         if(mIsIdle)
         {
             mAnim.CrossFade("free", 0.2f);
+            if (mIsAttack)
+                skillAttack(true);
+            else if (mIsFire)
+                skillFire(true);
+            else if (mIsIce)
+                skillIce(true);
+            else if (mIsHeal)
+                skillHeal(true);
         }
 
         if (mIsWalk)
         {
             mAnim.CrossFade("walk", 0.2f);
         }
-
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            skillAttack();
-        }
-
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            skillFire();
-        }
-
-        if (Input.GetKeyDown(KeyCode.S))
-        {
-            skillIce();
-        }
-
-        if (Input.GetKeyDown(KeyCode.D))
-        {
-            skillHeal();
-        }
-        //switch(mPlayerSkill)
-        //{
-        //    case 0:
-        //        mAnim.CrossFade("attack", 0.2f);
-        //        break;
-        //    case 1 , 2:
-        //        mAnim.CrossFade("skill", 0.2f);
-        //        break;
-        //    case 3:
-        //        mAnim.CrossFade("skill", 0.2f);
-        //        break;
-        //}
-
-        //if (mPlayerSkill == 0)
-        //{
-        //    mAnim.CrossFade("attack", 0.2f);
-        //}
-
-        //if (mPlayerSkill == 1)
-        //{
-        //    mAnim.CrossFade("skill", 0.2f);
-        //}
-
+        
         if (mIsDeath)
         {
             mAnim.CrossFade("death", 0.2f);
         }
     }
 
-    private void skillAttack()
+    private void skillAttack(bool attack)
     {
-        mAnim.CrossFade("attack", 0.2f);
-        var bullet = ObjectPoolIG.GetObject();
-        bullet.transform.position = attackPoint.transform.position;
-       
-        bullet.Shoot(transform.forward * 10f);
+        if (attack)
+        {
+            mAnim.CrossFade("attack", 0.2f);
+            var bullet = ObjectPoolIG.GetObject();
+            bullet.transform.position = attackPoint.transform.position;
+
+            bullet.Shoot(transform.forward * 10f);
+        }
     }
 
-    private void skillFire()
+    private void skillFire(bool skillfire)
     {
+        if (skillfire)
         StartCoroutine(CoroutinSkill_Fire());
     }
-    private void skillIce()
+    private void skillIce(bool skillice)
     {
+        if (skillice)
         StartCoroutine(CoroutinSkill_Ice());
     }
-    private void skillHeal()
+    private void skillHeal(bool skillheal)
     {
+        if (skillheal)
         StartCoroutine(CoroutinSkill_Heal());
     }
 
@@ -126,6 +95,9 @@ public class PlayerIG : MonoBehaviour
     {
         UIEventToInGame.Instance.EventStickMove -= OnEventMove;
         UIEventToInGame.Instance.EventStickUp -= OnEventStop;
+        UIEventToInGame.Instance.EventFireSkillBtn -= skillFire;
+        UIEventToInGame.Instance.EventIceSkillBtn -= skillIce;
+        UIEventToInGame.Instance.EventHealSkillBtn -= skillHeal;
     }
 
     void OnEventMove(Vector2 direction)
