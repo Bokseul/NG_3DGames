@@ -1,0 +1,1928 @@
+fileFormatVersion: 2
+guid: 39139f6168f1f034da26524295d6bd77
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5179684455692996780
+    second: Player_zeratool_0
+  - first:
+      213: 3421783336322576876
+    second: Player_zeratool_1
+  - first:
+      213: -2235345781437402116
+    second: Player_zeratool_2
+  - first:
+      213: -805934648954085350
+    second: Player_zeratool_3
+  - first:
+      213: -5058293419844003424
+    second: Player_zeratool_4
+  - first:
+      213: -3175590302805474839
+    second: Player_zeratool_5
+  - first:
+      213: 8123501505028469135
+    second: Player_zeratool_6
+  - first:
+      213: 5413902791032226524
+    second: Player_zeratool_7
+  - first:
+      213: -6333477044221002170
+    second: Player_zeratool_8
+  - first:
+      213: 898716237772031940
+    second: Player_zeratool_9
+  - first:
+      213: 1113759129225713747
+    second: Player_zeratool_10
+  - first:
+      213: -726290703651269079
+    second: Player_zeratool_11
+  - first:
+      213: -5330010624203782127
+    second: Player_zeratool_12
+  - first:
+      213: -8395148093108185336
+    second: Player_zeratool_13
+  - first:
+      213: -4115465287213325257
+    second: Player_zeratool_14
+  - first:
+      213: 3421912384390225728
+    second: Player_zeratool_15
+  - first:
+      213: 4484634638610525504
+    second: Player_zeratool_16
+  - first:
+      213: -1129149513634024968
+    second: Player_zeratool_17
+  - first:
+      213: -3166688660849706598
+    second: Player_zeratool_18
+  - first:
+      213: 5757309927528258561
+    second: Player_zeratool_19
+  - first:
+      213: 483439992893491782
+    second: Player_zeratool_20
+  - first:
+      213: 1127040537192732141
+    second: Player_zeratool_21
+  - first:
+      213: -7884083723412715959
+    second: Player_zeratool_22
+  - first:
+      213: 9120303281689801649
+    second: Player_zeratool_23
+  - first:
+      213: 3436657845661211080
+    second: Player_zeratool_24
+  - first:
+      213: 4966270395066763346
+    second: Player_zeratool_25
+  - first:
+      213: 487074256888459511
+    second: Player_zeratool_26
+  - first:
+      213: 5003121679995460178
+    second: Player_zeratool_27
+  - first:
+      213: 922218547832240576
+    second: Player_zeratool_28
+  - first:
+      213: -3730875559258732640
+    second: Player_zeratool_29
+  - first:
+      213: -5706127279374377738
+    second: Player_zeratool_30
+  - first:
+      213: 7589284693553745716
+    second: Player_zeratool_31
+  - first:
+      213: -116705425241147168
+    second: Player_zeratool_32
+  - first:
+      213: 4037620444398886673
+    second: Player_zeratool_33
+  - first:
+      213: -7825154823985000293
+    second: Player_zeratool_34
+  - first:
+      213: -9080332381373079018
+    second: Player_zeratool_35
+  - first:
+      213: -9179019406808768743
+    second: Player_zeratool_36
+  - first:
+      213: -8728030138817051231
+    second: Player_zeratool_37
+  - first:
+      213: -2295425414506031950
+    second: Player_zeratool_38
+  - first:
+      213: -744012560718955909
+    second: Player_zeratool_39
+  - first:
+      213: 7954805924013054531
+    second: Player_zeratool_40
+  - first:
+      213: 5662381327354714679
+    second: Player_zeratool_41
+  - first:
+      213: 5193507503706274575
+    second: Player_zeratool_42
+  - first:
+      213: 1765488136508840348
+    second: Player_zeratool_43
+  - first:
+      213: 8767365448209389627
+    second: Player_zeratool_44
+  - first:
+      213: -6397472936639749135
+    second: Player_zeratool_45
+  - first:
+      213: -7834997131371900182
+    second: Player_zeratool_46
+  - first:
+      213: -7325679820549464852
+    second: Player_zeratool_47
+  - first:
+      213: 3177307301451917687
+    second: Player_zeratool_48
+  - first:
+      213: 8166126117633453619
+    second: Player_zeratool_49
+  - first:
+      213: 7809726837528750473
+    second: Player_zeratool_50
+  - first:
+      213: 8640318876468548297
+    second: Player_zeratool_51
+  - first:
+      213: 5851389949389414896
+    second: Player_zeratool_52
+  - first:
+      213: 3951678298712686552
+    second: Player_zeratool_53
+  - first:
+      213: 3102157032629211760
+    second: Player_zeratool_54
+  - first:
+      213: -5345391289600297310
+    second: Player_zeratool_55
+  - first:
+      213: 3041235370653685933
+    second: Player_zeratool_56
+  - first:
+      213: 1252877205078823475
+    second: Player_zeratool_57
+  - first:
+      213: 3083082652225928776
+    second: Player_zeratool_58
+  - first:
+      213: 7428950579565886350
+    second: Player_zeratool_59
+  - first:
+      213: 404291638595961073
+    second: Player_zeratool_60
+  - first:
+      213: 8302713432252609280
+    second: Player_zeratool_61
+  - first:
+      213: 6128857424524738807
+    second: Player_zeratool_62
+  - first:
+      213: -6585134457101312818
+    second: Player_zeratool_63
+  - first:
+      213: 3973169916966909876
+    second: Player_zeratool_64
+  - first:
+      213: 1531775957353117052
+    second: Player_zeratool_65
+  - first:
+      213: -3213370371102921814
+    second: Player_zeratool_66
+  - first:
+      213: 6029755585690377052
+    second: Player_zeratool_67
+  - first:
+      213: -1551307939448325020
+    second: Player_zeratool_68
+  - first:
+      213: 4171331485460947060
+    second: Player_zeratool_69
+  - first:
+      213: 6447609036626504941
+    second: Player_zeratool_70
+  - first:
+      213: 5297185218528701615
+    second: Player_zeratool_71
+  - first:
+      213: -7426559614229281600
+    second: Player_zeratool_72
+  - first:
+      213: 6849640478099897251
+    second: Player_zeratool_73
+  - first:
+      213: 1977977458672732012
+    second: Player_zeratool_74
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Player_zeratool_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca0913eb19fe1e740800000000000000
+      internalID: 5179684455692996780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_1
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 960
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce1bbd3a0dd9c7f20800000000000000
+      internalID: 3421783336322576876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_2
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 960
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3714bead47af0e0800000000000000
+      internalID: -2235345781437402116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_3
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 960
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a10a9e0f4beb0d4f0800000000000000
+      internalID: -805934648954085350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_4
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 960
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a990844fe45dc9b0800000000000000
+      internalID: -5058293419844003424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_5
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 960
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e1ca11d1790ee3d0800000000000000
+      internalID: -3175590302805474839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_6
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 960
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f81b29324997cb070800000000000000
+      internalID: 8123501505028469135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_7
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 960
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd2c8f387eb022b40800000000000000
+      internalID: 5413902791032226524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_8
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 960
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ebd1a3f28fa18a0800000000000000
+      internalID: -6333477044221002170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_9
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 960
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c7074a18a1e87c00800000000000000
+      internalID: 898716237772031940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_10
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 960
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 358d8dee60ed47f00800000000000000
+      internalID: 1113759129225713747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_11
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 960
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 926923df372bbe5f0800000000000000
+      internalID: -726290703651269079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_12
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 960
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118864fa39ff706b0800000000000000
+      internalID: -5330010624203782127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_13
+      rect:
+        serializedVersion: 2
+        x: 2912
+        y: 960
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8071d79e9417e7b80800000000000000
+      internalID: -8395148093108185336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_14
+      rect:
+        serializedVersion: 2
+        x: 3136
+        y: 960
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 734e23e302ee2e6c0800000000000000
+      internalID: -4115465287213325257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04fd61cfe231d7f20800000000000000
+      internalID: 3421912384390225728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_16
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 720
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04deac5717f9c3e30800000000000000
+      internalID: 4484634638610525504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_17
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 720
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f1f985ff747450f0800000000000000
+      internalID: -1129149513634024968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_18
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 720
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a99bbc7d079ad04d0800000000000000
+      internalID: -3166688660849706598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_19
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 720
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10cd62420e216ef40800000000000000
+      internalID: 5757309927528258561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_20
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 720
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a42a6bc1685b600800000000000000
+      internalID: 483439992893491782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_21
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 720
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de596d2b56d04af00800000000000000
+      internalID: 1127040537192732141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_22
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 720
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 946cb8e00ab169290800000000000000
+      internalID: -7884083723412715959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_23
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 720
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b333f46383d19e70800000000000000
+      internalID: 9120303281689801649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_24
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 720
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c912393a1671bf20800000000000000
+      internalID: 3436657845661211080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_25
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 720
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2584e74ac9cbbe440800000000000000
+      internalID: 4966270395066763346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_26
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 720
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f0f21db47f62c600800000000000000
+      internalID: 487074256888459511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_27
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 720
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a5f2809a8ae6540800000000000000
+      internalID: 5003121679995460178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_28
+      rect:
+        serializedVersion: 2
+        x: 2912
+        y: 720
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c931d412e06ccc00800000000000000
+      internalID: 922218547832240576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_29
+      rect:
+        serializedVersion: 2
+        x: 3136
+        y: 720
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a742352274493cc0800000000000000
+      internalID: -3730875559258732640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc59b5c873cfc0b0800000000000000
+      internalID: -5706127279374377738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_31
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 480
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f8492183e825960800000000000000
+      internalID: 7589284693553745716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_32
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 480
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e8f329b801616ef0800000000000000
+      internalID: -116705425241147168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_33
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 480
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f1046e662880830800000000000000
+      internalID: 4037620444398886673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_34
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 480
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9090f3a527776390800000000000000
+      internalID: -7825154823985000293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_35
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 480
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 612e7cd0fcd2cf180800000000000000
+      internalID: -9080332381373079018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_36
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 480
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91f1fb66b729d9080800000000000000
+      internalID: -9179019406808768743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_37
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 480
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a508e2f4decfd680800000000000000
+      internalID: -8728030138817051231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_38
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 480
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b4d6f74fb20520e0800000000000000
+      internalID: -2295425414506031950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_39
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 480
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7afae9948cbca5f0800000000000000
+      internalID: -744012560718955909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_40
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 480
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34a98fd67d5256e60800000000000000
+      internalID: 7954805924013054531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_41
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 480
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a58cf01d1d49e40800000000000000
+      internalID: 5662381327354714679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_42
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 480
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0bfcb8ee8b031840800000000000000
+      internalID: 5193507503706274575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_43
+      rect:
+        serializedVersion: 2
+        x: 2912
+        y: 480
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9996cf2b16408810800000000000000
+      internalID: 1765488136508840348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_44
+      rect:
+        serializedVersion: 2
+        x: 3136
+        y: 480
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b38dd847c60fba970800000000000000
+      internalID: 8767365448209389627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f3a967624c9737a0800000000000000
+      internalID: -6397472936639749135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_46
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 240
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae29f50ee9f744390800000000000000
+      internalID: -7834997131371900182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_47
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 240
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cecd6ed2405f55a90800000000000000
+      internalID: -7325679820549464852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_48
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 240
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779eb451820181c20800000000000000
+      internalID: 3177307301451917687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_49
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 240
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ee4902078e35170800000000000000
+      internalID: 8166126117633453619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_50
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 240
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9896cb75e29b16c60800000000000000
+      internalID: 7809726837528750473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_51
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 240
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c292026d3498e770800000000000000
+      internalID: 8640318876468548297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_52
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 240
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f1a5af2820543150800000000000000
+      internalID: 5851389949389414896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_53
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 240
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dfb36dc97e27d630800000000000000
+      internalID: 3951678298712686552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_54
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 240
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072185f92631d0b20800000000000000
+      internalID: 3102157032629211760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_55
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 240
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a638e571fa51d5b0800000000000000
+      internalID: -5345391289600297310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_56
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 240
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da89a2ad473a43a20800000000000000
+      internalID: 3041235370653685933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_57
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 240
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33258e31e2d136110800000000000000
+      internalID: 1252877205078823475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_58
+      rect:
+        serializedVersion: 2
+        x: 2912
+        y: 240
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e781b565f49ca20800000000000000
+      internalID: 3083082652225928776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_59
+      rect:
+        serializedVersion: 2
+        x: 3136
+        y: 240
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8bf4fc113fe81760800000000000000
+      internalID: 7428950579565886350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f04c207a155c9500800000000000000
+      internalID: 404291638595961073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_61
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 003f74180e9293370800000000000000
+      internalID: 8302713432252609280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_62
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f000d30b531e0550800000000000000
+      internalID: 6128857424524738807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_63
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 0
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecc9a4ec917ec94a0800000000000000
+      internalID: -6585134457101312818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_64
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7b41d1df8832730800000000000000
+      internalID: 3973169916966909876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_65
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 0
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7534851e16f14510800000000000000
+      internalID: 1531775957353117052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_66
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 0
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab25a23ca0d763d0800000000000000
+      internalID: -3213370371102921814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_67
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 0
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b908712cefda350800000000000000
+      internalID: 6029755585690377052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_68
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c70f3f5a5a87ae0800000000000000
+      internalID: -1551307939448325020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_69
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 0
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4706d47a2eb83e930800000000000000
+      internalID: 4171331485460947060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_70
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 0
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deca8b602428a7950800000000000000
+      internalID: 6447609036626504941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_71
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 0
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac6adbf3e1638940800000000000000
+      internalID: 5297185218528701615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_72
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 0
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c40a92e06f8fe890800000000000000
+      internalID: -7426559614229281600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_73
+      rect:
+        serializedVersion: 2
+        x: 2912
+        y: 0
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3abf74059bfce0f50800000000000000
+      internalID: 6849640478099897251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_zeratool_74
+      rect:
+        serializedVersion: 2
+        x: 3136
+        y: 0
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c670be5d400337b10800000000000000
+      internalID: 1977977458672732012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: d6531929a136d1147b9146c5cf3acac8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
