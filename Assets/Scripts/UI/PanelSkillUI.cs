@@ -33,7 +33,7 @@ public class PanelSkillUI : MonoBehaviour
             UIEventToInGame.Instance.OnEventIceSkillBtn(mIceSkill_Btn);
         }
         else if (mFireSkill_Btn)
-        {
+        {     
             UIEventToInGame.Instance.OnEventFireSkillBtn(mFireSkill_Btn);
             mFireSkill_Btn = false;
             UIEventToInGame.Instance.OnEventFireSkillBtn(mFireSkill_Btn);

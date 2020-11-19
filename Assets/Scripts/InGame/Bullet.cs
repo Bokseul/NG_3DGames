@@ -28,5 +28,13 @@ public class Bullet : MonoBehaviour
         transform.Translate(mDirection);
     }
 
-    
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.transform.tag == "Enemy")
+        {
+            
+        }
+    }
+
+
 }

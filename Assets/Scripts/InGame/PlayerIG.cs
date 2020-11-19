@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 
 public class PlayerIG : MonoBehaviour
@@ -9,7 +10,8 @@ public class PlayerIG : MonoBehaviour
     private GameObject attackPoint;
 
     Animation mAnim;
-    public int mHp = 20;
+    public int mHp = 2;
+    public int mMaxHp = 2;
     public int mSpeed = 10;
     private float mMove = 0f;
 
@@ -34,7 +36,16 @@ public class PlayerIG : MonoBehaviour
         mAnim = GetComponent<Animation>();
 
         mIsIdle = true;
+
+        mHp = mMaxHp;
         //mAnim.CrossFade("free", 0.2f);
+    }
+
+    private void FixedUpdate()
+    {
+        if (mHp == 0)
+            return;
+
     }
 
     void Update()
@@ -62,10 +73,15 @@ public class PlayerIG : MonoBehaviour
         {
             mAnim.CrossFade("walk", 0.2f);
         }
-        
-        if (mIsDeath)
+
+        if (mHp == 0)
         {
-            mAnim.CrossFade("death", 0.2f);
+            mIsDeath = true;
+        }
+
+        if(mIsDeath)
+        {
+            die();
         }
     }
 
@@ -113,6 +129,18 @@ public class PlayerIG : MonoBehaviour
         }
     }
 
+    private void die()
+    {
+        mAnim.CrossFade("death", 0.2f);
+        //게임 재시작
+        //Invoke("reStartGame", 3f);
+    }
+
+    private void reStartGame()
+    {
+        //게임 재시작
+        //SceneManager.LoadScene();
+    }
     private void OnDestroy()
     {
         UIEventToInGame.Instance.EventStickMove -= OnEventMove;
@@ -184,6 +212,28 @@ public class PlayerIG : MonoBehaviour
       
         yield return new WaitForSeconds(3f);
       
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.tag == "nextScene")
+        {
+            SceneManager.LoadScene("Field1");
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+       // if(collision.gameObject.tag == "Enemy")
+        if(collision.gameObject.CompareTag("Enemy"))
+        {
+            mHp -= 1;
+            Debug.Log("hp:" + mHp);
+            if(mHp == 0)
+            {
+                mIsDeath = true;
+            }
+        }
     }
 
 }
