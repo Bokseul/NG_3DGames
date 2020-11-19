@@ -26,6 +26,12 @@ TextureImporter:
   - first:
       213: -5127360345389082866
     second: Arrow Down
+  - first:
+      213: 7656052533252948162
+    second: QuestIcon
+  - first:
+      213: -3836558563346499512
+    second: RoyalShop
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -278,7 +284,7 @@ TextureImporter:
         width: 28
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -286,6 +292,48 @@ TextureImporter:
       bones: []
       spriteID: e07d8a98ee4f7d8b0800000000000000
       internalID: -5127360345389082866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuestIcon
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 2586
+        width: 54
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0854a2733cf3a60800000000000000
+      internalID: 7656052533252948162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoyalShop
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 2690
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 848bfb7405ec1cac0800000000000000
+      internalID: -3836558563346499512
       vertices: []
       indices: 
       edges: []

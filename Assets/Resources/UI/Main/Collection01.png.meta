@@ -5,6 +5,12 @@ TextureImporter:
   - first:
       213: 2571228912107979183
     second: test2222
+  - first:
+      213: 5827094660273814993
+    second: UpgradeStone
+  - first:
+      213: 2571228912107979183
+    second: Collection01_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -114,13 +120,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: test2222
+      name: Collection01_0
       rect:
         serializedVersion: 2
-        x: 1005
-        y: 429
-        width: 144
-        height: 132
+        x: 298
+        y: 1629
+        width: 111
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,6 +136,27 @@ TextureImporter:
       bones: []
       spriteID: fa109669217dea320800000000000000
       internalID: 2571228912107979183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpgradeStone
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1626
+        width: 112
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd323268bffdd050800000000000000
+      internalID: 5827094660273814993
       vertices: []
       indices: 
       edges: []
