@@ -22,8 +22,13 @@ public class PlayerIG : MonoBehaviour
     private bool mIsIce = false;
     private bool mIsHeal = false;
     public bool mIsDeath { get; private set; } = false;
+    private GameObject monster;
 
-   
+
+    private void Awake()
+    {
+      
+    }
 
     void Start()
     {
@@ -34,7 +39,7 @@ public class PlayerIG : MonoBehaviour
         UIEventToInGame.Instance.EventIceSkillBtn += skillIce;
         UIEventToInGame.Instance.EventHealSkillBtn += skillHeal;
         mAnim = GetComponent<Animation>();
-
+        monster = GameObject.FindGameObjectWithTag("Enemy");
         mIsIdle = true;
 
         mHp = mMaxHp;
@@ -132,6 +137,7 @@ public class PlayerIG : MonoBehaviour
     private void die()
     {
         mAnim.CrossFade("death", 0.2f);
+        InGameEventToUI.Instance.OnEventDie(mIsDeath);
         //게임 재시작
         //Invoke("reStartGame", 3f);
     }
@@ -220,13 +226,13 @@ public class PlayerIG : MonoBehaviour
         {
             SceneManager.LoadScene("Field1");
         }
+        
     }
 
     private void OnCollisionEnter(Collision collision)
     {
-       // if(collision.gameObject.tag == "Enemy")
-        if(collision.gameObject.CompareTag("Enemy"))
-        {
+        if (collision.gameObject == monster)
+        { 
             mHp -= 1;
             Debug.Log("hp:" + mHp);
             if(mHp == 0)
