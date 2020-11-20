@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class State_Idle : State
 {
+
     public override void Enable()
     {
         mMonsterAnimator.SetBool("isJumpDown", false);
@@ -15,6 +16,8 @@ public class State_Idle : State
 
     public override IEnumerator Coroutine()
     {
+        if (!mMonsterAI.mChangeTrace)
+            yield break;
 
         while (true)
         {
@@ -24,5 +27,9 @@ public class State_Idle : State
 
             yield break;
         }
+    }
+
+    public override void Disable()
+    {
     }
 }

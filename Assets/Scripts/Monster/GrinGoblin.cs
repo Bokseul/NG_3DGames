@@ -2,29 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class YellowGoblin : MonsterAI
+public class GrinGoblin : MonsterAI
 {
     public override void Start()
     {
         base.Start();
 
-        ChangeState(mStates[0]);
-        gameObject.SetActive(false);
+        ChangeState(mStates[1]);
     }
 
     public override void SetState()
     {
-        mStates[0] = new State_JumpDown();
         mStates[1] = new State_Idle();
         mStates[2] = new State_Trace();
         mStates[3] = new State_NomalAttack();
         mStates[8] = new State_Damaged();
         mStates[9] = new State_Die();
-    }
-
-    void JumpEnd()
-    {
-        ChangeState(mStates[1]);
     }
 
     void Attack()

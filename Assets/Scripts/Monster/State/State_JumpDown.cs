@@ -19,4 +19,8 @@ public class State_JumpDown : State
     {
         yield break;
     }
+
+    public override void Disable()
+    {
+    }
 }

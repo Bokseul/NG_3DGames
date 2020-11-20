@@ -48,6 +48,8 @@ public class PlayerIG : MonoBehaviour
 
     private void FixedUpdate()
     {
+
+
         if (mHp == 0)
             return;
 

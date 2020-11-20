@@ -18,9 +18,9 @@ TagManager:
   - 
   - 
   - lite
-  - 
-  - 
-  - 
+  - Player
+  - Monster
+  - Boundary
   - 
   - 
   - 

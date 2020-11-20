@@ -22,6 +22,10 @@ public class State_NomalAttack : State
         yield break;
     }
 
+    public override void Disable()
+    {
+    }
+
     public void Attack()
     {
         if (!mMonsterAI.mIsDeath)
@@ -40,5 +44,10 @@ public class State_NomalAttack : State
             }
 
         }
+    }
+
+    public void DelayTime()
+    {
+
     }
 }

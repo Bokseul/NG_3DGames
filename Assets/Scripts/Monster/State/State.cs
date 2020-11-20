@@ -8,6 +8,7 @@ public abstract class State
     protected MonsterAI mMonsterAI;
     protected Animator mMonsterAnimator;
 
+
     public virtual void Awake(GameObject monster)
     {
         this.mTransform = monster.transform;
@@ -20,5 +21,7 @@ public abstract class State
     public abstract void Update();
 
     public abstract IEnumerator Coroutine();
+
+    public abstract void Disable();
 
 }

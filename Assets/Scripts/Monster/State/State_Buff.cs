@@ -2,21 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class State_Damaged : State
+public class State_Buff : State
 {
     public override void Enable()
     {
-        mMonsterAnimator.SetTrigger("triggerDamaged");
+        mMonsterAnimator.SetTrigger("Buff");
     }
 
     public override void Update()
     {
-
     }
 
     public override IEnumerator Coroutine()
     {
+
         yield break;
+
     }
 
     public override void Disable()

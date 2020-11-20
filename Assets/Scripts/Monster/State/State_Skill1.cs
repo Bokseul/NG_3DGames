@@ -4,8 +4,16 @@ using UnityEngine;
 
 public class State_Skill1 : State
 {
+    GameObject mSkillPrf;
+    public override void Awake(GameObject monster)
+    {
+        base.Awake(monster);
+
+        mSkillPrf = (GameObject)Resources.Load("Skill1FX");
+    }
     public override void Enable()
     {
+        mMonsterAnimator.SetTrigger("triggerSkill1");
     }
 
     public override void Update()
@@ -16,5 +24,10 @@ public class State_Skill1 : State
     public override IEnumerator Coroutine()
     {
         yield break;
+    }
+
+    public override void Disable()
+    {
+
     }
 }

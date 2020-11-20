@@ -34,6 +34,7 @@ public class State_Trace : State
 
     }
 
+
     public override IEnumerator Coroutine()
     {
         while (!mMonsterAI.mIsDeath)
@@ -43,12 +44,26 @@ public class State_Trace : State
                 mPathFider.isStopped = false;
                 mMonsterAnimator.SetBool("isRun", true);
 
-                if (Vector3.Magnitude(mTransform.position - mTarget.transform.position) > 3f)
-                    mPathFider.SetDestination(mTarget.transform.position);
-                else
+                float distance = Vector3.Magnitude(mTransform.position - mTarget.transform.position);
+
+                
+                if (distance != 0f && distance <= mMonsterAI.mSkillDistance)
                 {
                     mPathFider.isStopped = true;
+                    mMonsterAnimator.SetBool("isRun", false);
+                    mMonsterAI.ChangeState(mMonsterAI.mStates[6]);
+                }
+
+                else if (distance <= 2f)
+                {
+                    mPathFider.isStopped = true;
+                    mMonsterAnimator.SetBool("isRun", false);
                     mMonsterAI.ChangeState(mMonsterAI.mStates[3]);
+                }
+
+                else
+                {
+                    mPathFider.SetDestination(mTarget.transform.position);
                 }
             }
             else
@@ -56,7 +71,7 @@ public class State_Trace : State
                 mPathFider.isStopped = true;
                 mMonsterAnimator.SetBool("isRun", false);
 
-                Collider[] colliders = Physics.OverlapSphere(mTransform.position, 40f, mTargetLayer);
+                Collider[] colliders = Physics.OverlapSphere(mTransform.position, 35f, mTargetLayer);
 
                 for (int i = 0; i < colliders.Length; ++i)
                 {
@@ -76,5 +91,11 @@ public class State_Trace : State
         }
 
         yield break;
+    }
+
+    public override void Disable()
+    {
+        mPathFider.isStopped = true;
+        mMonsterAnimator.SetBool("isRun", false);
     }
 }

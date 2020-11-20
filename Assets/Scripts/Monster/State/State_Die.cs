@@ -6,12 +6,13 @@ public class State_Die : State
 {
     public override void Enable()
     {
-        mMonsterAI.gameObject.SetActive(false);
+        mMonsterAnimator.SetTrigger("triggerDie");
+
+        mMonsterAI.mIsDeath = true;
     }
 
     public override void Update()
     {
-        mMonsterAI.ChangeState(mMonsterAI.mStates[1]);
     }
 
     public override IEnumerator Coroutine()
@@ -19,4 +20,7 @@ public class State_Die : State
         yield break;
     }
 
+    public override void Disable()
+    {
+    }
 }
